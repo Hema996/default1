@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{04EB1BA4-1228-44DC-9444-3A29299B9CBC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AOSmyproject</RootNamespace>
+    <AssemblyName>AOSmyproject</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Academics.aspx" />
+    <Content Include="Admission.aspx" />
+    <Content Include="Buy.aspx" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\mainstyle.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="English.aspx" />
+    <Content Include="Ielts.aspx" />
+    <Content Include="images\060_stanford_online_high_school_print_res_final.jpg" />
+    <Content Include="images\111.jpg" />
+    <Content Include="images\176_stanford_online_high_school_print_res_final.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\222.png" />
+    <Content Include="images\22885852_1444674775647396_5147854307158780554_n.jpg" />
+    <Content Include="images\23755165_1876675699311433_1980811782208154481_n_0.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\31.jpg" />
+    <Content Include="images\333.png" />
+    <Content Include="images\444.jpg" />
+    <Content Include="images\Admission.jpg" />
+    <Content Include="images\AH5I8398_1.jpg" />
+    <Content Include="images\AS8Q1166_0-1 copy.jpg" />
+    <Content Include="images\Assemblyfixed1.png" />
+    <Content Include="images\Assemblyfixed2.png" />
+    <Content Include="images\Clients\Concordia_%281%29.png" />
+    <Content Include="images\Clients\Cornell_%281%29.png" />
+    <Content Include="images\Clients\Emory_%281%29.png" />
+    <Content Include="images\Clients\Johns_Hopkins_%281%29.png" />
+    <Content Include="images\Clients\McGill_copy.png" />
+    <Content Include="images\Clients\NYU.png" />
+    <Content Include="images\Clients\Rice.png" />
+    <Content Include="images\Clients\SDSU.png" />
+    <Content Include="images\Clients\UCB.png" />
+    <Content Include="images\Clients\University_of_Birmingham.png" />
+    <Content Include="images\di0q0913.jpg" />
+    <Content Include="images\graduationweekend.jpg" />
+    <Content Include="images\ielts.jpg" />
+    <Content Include="images\img_2058.jpg" />
+    <Content Include="images\IMG_4671.jpg" />
+    <Content Include="images\Logo.png" />
+    <Content Include="images\main_img.jpg" />
+    <Content Include="images\ohs_020318_0371.jpg" />
+    <Content Include="images\ohs_c_081417_0117.jpg" />
+    <Content Include="images\ohs_c_081617_0068.jpg" />
+    <Content Include="images\ohs_ms_081017_0058.jpg" />
+    <Content Include="images\patricia_2018-1.jpg" />
+    <Content Include="images\screen_shot_2018-02-27_at_9.04.41_am.png" />
+    <Content Include="images\sg_meeting.png" />
+    <Content Include="images\sg_speeches_1_1.png" />
+    <Content Include="images\slcommunirtypg1.jpg" />
+    <Content Include="images\unknown.jpeg" />
+    <Content Include="images\webslider_admissionsinfo.jpg" />
+    <Content Include="index.aspx" />
+    <Content Include="Javascript\all.min.js" />
+    <Content Include="Javascript\jquery.js" />
+    <Content Include="js\app.js" />
+    <Content Include="js\modernizr.js" />
+    <Content Include="js\vendor.js" />
+    <Content Include="Required-Criteria.aspx" />
+    <Content Include="sites\css\css_8olxe5QNQ55E-Y05vM8nHu8JJ5SnJU5X9HdyMQdBkdI.css" />
+    <Content Include="sites\css\css_v1c6mpNP1ZNUwu-BYOpMzSVqH2ySXDMW4ErnZVc9jyc.css" />
+    <Content Include="sites\default\files\css\css_v1c6mpNP1ZNUwu-BYOpMzSVqH2ySXDMW4ErnZVc9jyc.css" />
+    <Content Include="sites\default\files\css\css_Y7j5WLE-gMmfvhuv-V9VdqUt7tedVURfZUku7VmU_ms.css" />
+    <Content Include="sites\default\files\styles\1024x684\public\2018-01\ohs_c_081417_0124.jpg" />
+    <Content Include="sites\default\files\styles\1024x684\public\2018-01\ohs_c_081417_0176.jpg" />
+    <Content Include="sites\default\files\styles\1024x684\public\2018-02\ohs_020318_0524.jpg" />
+    <Content Include="sites\default\files\styles\1024x684\public\2018-02\patricia_2018-1.jpg" />
+    <Content Include="sites\default\files\styles\1024x684\public\2018-02\zack.jpg" />
+    <Content Include="sites\default\files\styles\1024x684\public\2018-03\16-17_student_ambassador_pierce.jpg" />
+    <Content Include="sites\default\files\styles\1024x684\public\2018-03\image.png" />
+    <Content Include="sites\default\files\styles\1024x684\public\2018-09\demello_honors_chemistry.jpg" />
+    <Content Include="sites\default\files\styles\1024x684\public\2018-10\Smith, S._0.jpg" />
+    <Content Include="sites\default\files\styles\1440x492\public\2018-01\classroomv5.jpg" />
+    <Content Include="sites\default\files\styles\1440x492\public\2018-02\di0q4180.jpg" />
+    <Content Include="sites\default\files\styles\960x540\public\2018-01\AS8Q1066.jpg" />
+    <Content Include="sites\default\files\styles\960x540\public\2018-01\middle-school-umar.jpg" />
+    <Content Include="sites\default\files\styles\960x540\public\2018-02\as8q8533.jpg" />
+    <Content Include="sites\default\files\styles\960x540\public\2018-04\Classfix1.jpg" />
+    <Content Include="sites\default\files\styles\thumbnail\public\2018-02\ohs_020318_0371.jpg" />
+    <Content Include="studentlife.aspx" />
+    <Content Include="Support.aspx" />
+    <Content Include="Tuition.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Webform1.aspx" />
+    <Content Include="wp-content\uploads\2014\10\004089822-500x310.jpg" />
+    <Content Include="wp-content\uploads\2014\10\15444292_xxl-500x310-500x310.jpg" />
+    <Content Include="wp-content\uploads\2014\10\17718232_xxl-500x310-500x310.jpg" />
+    <Content Include="wp-content\uploads\2014\10\42521-500x310-500x310.png" />
+    <Content Include="wp-content\uploads\2014\10\Art-500x3101-500x310.jpg" />
+    <Content Include="wp-content\uploads\2014\10\DiverseStudents_Zoom-500x310.jpg" />
+    <Content Include="wp-content\uploads\2014\10\DRAMA-500x310-500x310.png" />
+    <Content Include="wp-content\uploads\2014\10\DRAMA1-500x3101-500x310.png" />
+    <Content Include="wp-content\uploads\2014\10\family-500x310-500x310.jpg" />
+    <Content Include="wp-content\uploads\2014\10\foreign_languages_tutoring_florida-500x310.jpg" />
+    <Content Include="wp-content\uploads\2014\10\HD_LincolnA_nara-500x310.jpg" />
+    <Content Include="wp-content\uploads\2014\10\highschool-500x310.png" />
+    <Content Include="wp-content\uploads\2014\10\image002-500x310-500x310.jpg" />
+    <Content Include="wp-content\uploads\2014\10\institute_of_cognitive_science_osnabrueck_1_standard-500x310.jpg" />
+    <Content Include="wp-content\uploads\2014\10\KS97573-500x310.jpg" />
+    <Content Include="wp-content\uploads\2014\10\marketing-strategy-500x310-500x310.jpg" />
+    <Content Include="wp-content\uploads\2014\10\mathPractice-500x310.png" />
+    <Content Include="wp-content\uploads\2014\10\multimedia-500x310.jpg" />
+    <Content Include="wp-content\uploads\2014\10\o-HIGH-SCHOOL-STUDENTS-facebook-500x310.jpg" />
+    <Content Include="wp-content\uploads\2014\11\background-blue.jpg" />
+    <Content Include="wp-content\uploads\2014\11\English-664x4987-500x310.jpg" />
+    <Content Include="wp-content\uploads\2014\11\Mathslabelled4-500x310.jpg" />
+    <Content Include="wp-content\uploads\2014\5\15444292_xxl1-500x3103-500x310.jpg" />
+    <Content Include="wp-content\uploads\2014\5\DRAMA1-500x3101-500x310.png" />
+    <Content Include="wp-content\uploads\2014\5\music1-500x3101-500x310.jpg" />
+    <Content Include="wp-content\uploads\2015\10\9314577_orig1-500x310.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Academics.aspx.cs">
+      <DependentUpon>Academics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Academics.aspx.designer.cs">
+      <DependentUpon>Academics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admission.aspx.cs">
+      <DependentUpon>Admission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admission.aspx.designer.cs">
+      <DependentUpon>Admission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buy.aspx.cs">
+      <DependentUpon>Buy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Buy.aspx.designer.cs">
+      <DependentUpon>Buy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="English.aspx.cs">
+      <DependentUpon>English.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="English.aspx.designer.cs">
+      <DependentUpon>English.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ielts.aspx.cs">
+      <DependentUpon>Ielts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ielts.aspx.designer.cs">
+      <DependentUpon>Ielts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Required-Criteria.aspx.cs">
+      <DependentUpon>Required-Criteria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Required-Criteria.aspx.designer.cs">
+      <DependentUpon>Required-Criteria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="studentlife.aspx.cs">
+      <DependentUpon>studentlife.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="studentlife.aspx.designer.cs">
+      <DependentUpon>studentlife.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Support.aspx.cs">
+      <DependentUpon>Support.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Support.aspx.designer.cs">
+      <DependentUpon>Support.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tuition.aspx.cs">
+      <DependentUpon>Tuition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tuition.aspx.designer.cs">
+      <DependentUpon>Tuition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Webform1.aspx.cs">
+      <DependentUpon>Webform1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Webform1.aspx.designer.cs">
+      <DependentUpon>Webform1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="themes\custom\spcs\fonts\SourceSansPro-Regular.woff2" />
+    <Content Include="themes\custom\spcs\fonts\spcs.woff2" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50332/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
